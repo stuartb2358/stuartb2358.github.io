@@ -4,12 +4,17 @@ title: Mainpage
 ---
 <!-- Content
     ================================================== -->
-  <div class="content">
+ <div class="content">
     <main class="container">
     	<div class="row-fluid">
-    		<section class="content">
-    		  <h1>Ipsum List</h1>
-          <div class="sub-title">A list of interesting lorem ipsums I found on the web</div>
+        <section class="content">
+    		  <h1>Brittany Stuart</h1>
+          <div class="sub-title">A collection of all of my little projects over the years</div>
+          <div align="center">
+            <a href="http://lnkd.in/brwpUHn"><img src="img/icon-social-linkedin-hover-grey.png" onMouseOver="this.src='img/icon-social-linkedin-hover.png'" onMouseOut="this.src='img/icon-social-linkedin-hover-grey.png'" /></a>
+            <a href="https://github.com/stuartb2358"><img src="img/icon-social-github-hover-grey.png" onMouseOver="this.src='img/icon-social-github-hover.png'" onMouseOut="this.src='img/icon-social-github-hover-grey.png'" /></a>
+            <a href="https://github.com/stuartb2358"><img src="img/icon-social-resume-hover-grey.png" onMouseOver="this.src='img/icon-social-resume-hover.png'" onMouseOut="this.src='img/icon-social-resume-hover-grey.png'" /></a>
+          </div>
     		</section>
     		<ul class="entries">
     		{% for post in paginator.posts %}
@@ -23,7 +28,6 @@ title: Mainpage
     		{% endfor %}
     		</ul>
     	</div>
-      
       <div id="post-pagination">
         {% if paginator.previous_page %}
         <p class="prev">

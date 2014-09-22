@@ -91,6 +91,9 @@ hr{
         letter-spacing: 0.04em;
         color: $greenSpotify;
     }
+    .topnav {
+        float: right;
+    }
 
     .sub-title{
         font-family: 'Raleway';
@@ -99,8 +102,6 @@ hr{
         color: $grayLight;
     }
 }
-
-
 
 // 3. Entries
 // --------------------------------------------------
@@ -235,3 +236,33 @@ footer .container{
         text-decoration: underline;
     }    
 }
+
+.roll_over{
+        height: 48px;
+        width: 48px;
+        margin: 5px;
+        float: left;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        transition: all ease 0.5s;
+               }
+.roll_over:hover {
+                  background-position: 0px -48px;
+                            }
+.facebook{
+         background-image:url('Your image URL');
+                }
+.twitter{
+        background-image:url('Your image URL');
+            }
+.google_plus{
+                  background-image:url('Your Image URL');
+                      }
+.linkedin{
+         background-image:url('img/icon-social-linkedin-hover-splice.png');
+               }
+.pinterest{
+        background-image:url('Your Image URL');
+               }
