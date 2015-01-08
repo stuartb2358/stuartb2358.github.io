@@ -1,14 +1,12 @@
 ---
 layout: post_page
-title: Cheese
+title: Programming Jigs
 ---
 
-Lancashire queso cheese slices. Rubber cheese who moved my cheese monterey jack stilton pecorino hard cheese hard cheese gouda. Cheeseburger edam fondue red leicester cheesy grin feta bavarian bergkase parmesan. Swiss.
-
-Camembert de normandie jarlsberg cottage cheese. Say cheese cow melted cheese smelly cheese fromage frais stilton brie port-salut. Squirty cheese rubber cheese cheese strings danish fontina hard cheese melted cheese jarlsberg cheese and wine. Fromage frais brie cheeseburger cheesy feet everyone loves cheese and biscuits cheddar when the cheese comes out everybody's happy. Port-salut mascarpone mozzarella cheesecake.
-
-When the cheese comes out everybody's happy airedale ricotta. Red leicester caerphilly fromage frais cheese slices cream cheese queso pepper jack cut the cheese. Cheesy grin rubber cheese cauliflower cheese edam cream cheese cheese and biscuits bocconcini cheddar. Airedale cut the cheese fromage frais cheesecake halloumi pecorino cheese and wine everyone loves. Croque monsieur swiss smelly cheese boursin.
-
-Cottage cheese who moved my cheese cheeseburger. Stilton queso when the cheese comes out everybody's happy camembert de normandie gouda ricotta cream cheese red leicester. Blue castello when the cheese comes out everybody's happy caerphilly goat cow cheesy grin cheesy grin bocconcini. Monterey jack.
-
-Cheddar emmental fromage frais. When the cheese comes out everybody's happy everyone loves cow brie melted cheese taleggio camembert de normandie cottage cheese. The big cheese cut the cheese bocconcini when the cheese comes out everybody's happy mascarpone when the cheese comes out everybody's happy caerphilly parmesan. St. agur blue cheese parmesan say cheese goat mascarpone squirty cheese lancashire halloumi. Cow halloumi.
+Project Description:
+Designed and prototyped programming jigs for hackathon PCB badges
+Project Details:
+BOILERMAKE is a student run organization at Purdue University that puts on a hackathon every year in October. In 2014, they wanted to add a little something extra to their hackathon and decided to make badges for their hackers that doubled as development boards (much like a mini Arduino). The source of the challenge was the time frame in which the development and manufacturing of the boards took place. Over 600 boards needed to be assembled and programmed within 48 hours so we had to streamline the process as much as possible. I worked on designing programming jigs to expedite the programming step.
+For programming, there were six pins that needed to keep in contact with the board for about forty-five seconds. To ensure a good connection between the board and the pins I decided that pogo pins were optimal. These were soldered into perfboards to keep the pins aligned and connect the programmer adapter to the pogo pins. In order to minimize programming error, I wanted a design that would allow the user to attach the board to the pogo pins without having to hold it in place so contact was kept throughout the programming. I went with a simple design would rotate an arm under the board to hold it in place. 
+The jig was 3D printed in two pieces so the exact sizing could be done during assembly so the boards would fit snugly in the jig. Also, this meant that the shrinking of the plastic while it cooled from the print didn’t need to be taken into account. The bridge design across the board was originally meant to help align the pins, however, when it came time to assemble the jigs it was difficult to align the pins with both sides of the board. Since the time window for designing the jigs was so small, I decided to throw out half of the jig and only keep the half that clamped around the board. This meant the jig still held the pins and helped align the pins, but the alignment was a little less snug. 
+Overall, the jigs allowed users to expedite the programming process by programming multiple boards at once because they did not need to hold the pins in place. 
