@@ -15,7 +15,8 @@ We went through multiple design iterations, focusing on user needs and basic fun
             <a href="/files/powerpoint.pdf"><i class="fa fa-file-powerpoint-o fa-2x"></i></a>
             <a href="/files/paper.pdf"><i class="fa fa-file-text-o fa-2x"></i></a>
 <br />
-![alt text](/img/graph1.png "product sales estimates")
-![alt text](/img/assembly1.png "full assembly of amphibious bike kit")
-![alt text](/img/cad1.png "front assembly CAD model")
-![alt text](/img/cad2.png "rear assembly CAD model")
+![alt text](/img/graph1.jpg "product sales estimates")
+<br />
+![alt text](/img/assembly1.jpg "full assembly of amphibious bike kit")
+<br />
+![alt text](/img/cad2.jpg "rear assembly CAD model")
