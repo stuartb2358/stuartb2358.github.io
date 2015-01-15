@@ -44,15 +44,6 @@ hr{
     background: #778da8;
 }
 
-.circular {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    background: url(http://brittanystuart.me/img/brittanystuart1.jpg) no-repeat;
-    }
-
 // 1. a Font
 // --------------------------------------------------
 
@@ -87,10 +78,24 @@ hr{
     & > .container{
        min-height: 58em;  
     }
+   .circular {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(http://brittanystuart.me/img/brittanystuart1.jpg) no-repeat;
+    } 
 }
-
 .content {
-
+.circular {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(http://brittanystuart.me/img/brittanystuart1.jpg) no-repeat;
+    }
     h1{
         font-family: 'Raleway';
         text-transform: uppercase;
