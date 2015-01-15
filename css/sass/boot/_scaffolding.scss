@@ -52,3 +52,11 @@ a:hover {
 .img-circle {
   @include border-radius(500px); // crank the border-radius so it works with most reasonably sized images
 }
+.circular {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(brittanystuart.me/img/brittanystuart1.jpg) no-repeat;
+  }
